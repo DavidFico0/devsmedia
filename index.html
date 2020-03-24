@@ -9,20 +9,25 @@
     <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body id="page-top">
+
     <header>
         <div class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4">
-                <h5 class="text-white h4" style="text-align: center;"><a href="#home"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs media" style="width: 140px;"> </a></h5>
+                <h5 class="text-white h4" style="text-align: center;"><a href="#page-top" class="nav-scroll"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs media" style="width: 140px;"> </a></h5>
                 <span class="text-muted">Lorem ipsum, dolor.</span>
-                <ul id='nav-principal'>
-                    <li><a href="#home" class="link-nav">Home</a></li>
-                    <li><a href="#sobre" class="link-nav">Sobre</a></li>
-                    <li><a href="#portfoleo" class="link-nav">Portfóleo</a></li>
-                    <li><a href="#contato" class="link-nav">Contato</a></li>
-                </ul>
+                <nav>
+                  <ul id='nav-principal'>
+                      <li><a href="#page-top" class="link-nav nav-scroll">Home</a></li>
+                      <li><a href="#sobre" class="link-nav nav-scroll">Sobre</a></li>
+                      <li><a href="#portfoleo" class="link-nav nav-scroll">Portfóleo</a></li>
+                      <li><a href="#contato" class="link-nav nav-scroll">Contato</a></li>
+                  </ul>
+
+                </nav>
               </div>
             </div>
             <nav class="navbar navbar-dark bg-dark">
@@ -30,19 +35,19 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <ul id="nav-social-media">
-                <li><a href="http://"><img src="./img/facebook-brn.png"  class="img-social-media" alt=""></a></li>
-                <li><a href="http://"><img src="./img/instagram-brn.png" class="img-social-media" alt=""></a></li>
-                <li><a href="http://"><img src="./img/linkedin-brn.png"  class="img-social-media" alt=""></a></li>
+                <li><a href="#!"><img src="./img/facebook-brn.png"  class="img-social-media" alt=""></a></li>
+                <li><a href="#!"><img src="./img/instagram-brn.png" class="img-social-media" alt=""></a></li>
+                <li><a href="#!"><img src="./img/linkedin-brn.png"  class="img-social-media" alt=""></a></li>
             </ul>
             </nav>
           </div>
         
     </header>
-    <main>
+    <!-- <main> -->
         <section id='home'>
             <div class="row">
                 <div class="col-md-12" id="container-logo">
-                    <img src="./img/devsmedia-logo-white.png" alt="Log Devs Media" class="logo-principal">
+                    <img src="./img/devsmedia-logo-white.png" alt="Log Devs Media" class="logo-principal nav-scroll">
 
                 </div>
             </div>
@@ -68,7 +73,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <p style="text-align: center;">
-                           <a href="#home"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
+                           <a href="#page-top" class="nav-scroll"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
                         </p>
                         <h2 class="titulo-sobre">Sobre</h2>
                     </div>
@@ -125,7 +130,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <p style="text-align: center;">
-                            <a href="#home"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
+                            <a href="#page-top" class="nav-scroll"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
                         </p>
                         <h2 class="titulo-portfoleo">Porfóleo</h2>
                     </div>
@@ -251,7 +256,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <p style="text-align: center;">
-                           <a href="#home"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
+                           <a href="#page-top" class="nav-scroll"><img src="./img/devsmedia-logo-white.png" alt="Logo Devs Media" class="logo-sobre"></a>
                         </p>
                         <h2 class="titulo-contato">Contato</h2>
                     </div>
@@ -312,13 +317,17 @@
             </div>
         </section>
 
-    </main>
+    <!-- </main> -->
     <footer>
-            <p>Copyright © - <a href="mailto:davidfico22@gmail.com">David Fico</a></p>
+            <p><a href="#page-top" class="nav-scroll"><img src="./img/devsmedia-logo-white.png" alt="Logo dev media" class="footer-logo"></a></p>
+            <p>Copyright 2020 © - <a href="mailto:davidfico22@gmail.com">David Fico</a></p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/my-scroll.js"></script>
 </body>
 </html>

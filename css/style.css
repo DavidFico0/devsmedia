@@ -197,10 +197,14 @@ footer {
     background-color: hsl(0, 0%, 15%);
 }
 
+.footer-logo {
+    width: 110px;
+}
+
 footer p{
     font-size: large;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 10px;
     font-weight: bold;
 }
 
