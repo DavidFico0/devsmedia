@@ -226,7 +226,7 @@ footer p{
 
     /* SOBRE */
     #sobre{
-        height: 110vh;
+        height: auto;
     }
 
     .img-ico{
@@ -272,7 +272,7 @@ footer p{
 
     /* Portfoleo */
     #portfoleo{
-        height: 130vh;
+        height: auto;
     }
     .titulo-portfoleo{
         color: white;
